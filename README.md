@@ -40,6 +40,20 @@ Git step by step
   7. Remove a directory : " rmdir Playground " : deletes the directory named Playground.      
 
 
+
+
+
+
+3. Some real GIT commands :
+
+   * Initialising a git repo in the local :
+
+       command :   " git init "
+
+       this can be used to initialise or create a new repo in an empty or non empty folder in the local 
+
+
+
     
 
  
