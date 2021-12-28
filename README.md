@@ -137,9 +137,28 @@ Git step by step
 
 
       resets to the 4dc777b commit         
-    
 
+
+  * Branch
+
+      1. create a branch : " git branch view "    (creates a branch named view) 
+
+      2. list all branches : " git branch -a "
+
+      3. switch branches : " git checkout view "    (switched to the view branch) 
+
+      4. delete branch : " git branch -d view "    (deletes the view branch only if it is merged)
+                         " git branch -D view "    (delets the view branch even if not merged)
+
+                         Note : before deleting move to the master branch
  
 
+      5. Create and checkout simultaneously : " git checkout -b view "    (creates and switches to the view branch)
+
+      6. Merging :
+         
+         * switch to the master before merging 
+
+         * command : " git merge view "                (merges the view branch to the master)
 
 
