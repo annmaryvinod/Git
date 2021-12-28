@@ -52,6 +52,57 @@ Git step by step
 
        this can be used to initialise or create a new repo in an empty or non empty folder in the local 
 
+   * Checking the status of a repo ( to find the staging,committed files etc) :
+
+      command : " git status "
+
+      this shows the unstaged files (untracked files),committed files etc.
+
+   * To stage a file :
+
+      command : " git add index.html"    
+
+      index.html is added to the staging area (can be checked with " git status ")
+
+   * To unstage a staged file :
+
+     command : " git rm --cached index.html "
+
+     removes index.html from the staging area (can be checked using " git status ")   
+
+
+
+   * To add multiple files to the staging area :
+
+     command : " git add . "
+
+
+
+   * Commiting :
+
+     command : git commit -m "fixed a bug in the header"    
+
+
+
+  * Commit History :
+
+    1. To see all info :
+    
+    command : " git log "   
+
+    2. To get a condensed form (crisp):
+
+    command : " git log --oneline "
+
+
+
+
+
+
+  * Undoing Things :
+
+   <img src = "undo.png">
+
 
 
     
