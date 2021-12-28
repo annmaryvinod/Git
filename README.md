@@ -28,8 +28,8 @@ Git step by step
 
   *  List : " ls " / " dir " : to list the contents of the current directory.
        
-       <!-- Note: "dir" is for Windows.
-       " ls " also works for Windows. -->
+       Note: "dir" is for Windows.
+       " ls " also works for Windows.
 
   * Make Directory : " mkdir Playground " : creates a new directory named Playground.
 
