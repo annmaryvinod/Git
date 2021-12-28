@@ -105,21 +105,38 @@ Git step by step
 
    1. checkout : read-only command. It can take us back to the code at a particular commit
 
-   " Eg : Boss wants to see the code at the end of the second commit (just to see)"
+        " Eg : Boss wants to see the code at the end of the second commit (just to see)"
 
-   command to get to the specified commit :  <span>git checkout 4dc777b </span>
+          * command to get to the specified commit :  "git checkout 4dc777b "
 
-   command to get back on the top :  <span>git checkout master </span>
+          * command to get back on the top :  "git checkout master "
 
-   <style> span {
-     color : red;
-   }
-   </style>
+   
 
-   Note : 4dc777b refers to the id of the second commit. This can be obtained from the commit history
+              Note : 4dc777b refers to the id of the second commit. This can be obtained from the commit history
 
 
+   2. revert : Undo a commit 
 
+
+          * command : " git revert 4dc777b "
+             
+             Now a screen pops up asking for a commit msg requirement.
+             Press Shift + colon.
+             Then type "wq"
+
+
+         * " git log " shows a new commit of revert
+
+
+
+   3. reset : permanent deletion. Reset to a specified commit. All commits after the specified commit will be deleted.
+
+
+      * command   : " git reset 4dc777b --hard "
+
+
+      resets to the 4dc777b commit         
     
 
  
