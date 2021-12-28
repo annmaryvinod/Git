@@ -162,3 +162,7 @@ Git step by step
          * command : " git merge view "                (merges the view branch to the master)
 
 
+
+NOTE : Most important video is the 10th tutorial in netninja
+
+
