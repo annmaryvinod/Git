@@ -101,7 +101,22 @@ Git step by step
 
   * Undoing Things :
 
-   <img src = "undo.png">
+   <img src="undo.png">
+
+   1. checkout : read-only command. It can take us back to the code at a particular commit
+
+   " Eg : Boss wants to see the code at the end of the second commit (just to see)"
+
+   command to get to the specified commit :  <span>git checkout 4dc777b </span>
+
+   command to get back on the top :  <span>git checkout master </span>
+
+   <style> span {
+     color : red;
+   }
+   </style>
+
+   Note : 4dc777b refers to the id of the second commit. This can be obtained from the commit history
 
 
 
