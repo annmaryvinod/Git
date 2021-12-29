@@ -166,3 +166,6 @@ Git step by step
 NOTE : Most important video is the 10th tutorial in netninja
 
 
+* Fork : used in open source development. Copies a particular code.
+
+
